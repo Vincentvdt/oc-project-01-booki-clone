@@ -34,7 +34,7 @@ _— OpenClassrooms evaluator feedback_
 
 1. Clone this repo
 2. Open `index.html` in your browser
-3. No build process needed — pure HTML/CSS
+3. No build process needed, pure HTML/CSS
 ## ⚠️ Design Disclaimer
 
 The design wasn’t cooked up by me. This project was all about following a provided mockup from Figma. So if anything looks a little off or funky, that’s not on me. I just did the HTML & CSS hustle to bring it to life exactly as shown. No design blame here, just pure integration vibes.
