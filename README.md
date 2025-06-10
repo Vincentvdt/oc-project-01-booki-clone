@@ -28,7 +28,7 @@ _— OpenClassrooms evaluator feedback_
 
 ## 📸 Preview
 
-(Screenshot or deployment link if any)
+- [Live Demo (Booki Clone)](https://vincentvdt.github.io/oc-project-01-booki-clone/)
 
 ## 📁 Getting started
 
