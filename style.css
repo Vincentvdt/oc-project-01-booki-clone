@@ -1,39 +1,43 @@
+/* Reset & base styles */
 a, body, div, footer, h1, h2, h3, h4, h5, h6, header, html, i, img, label, li, menu, nav, p, s, section, span, ul {
     margin: 0;
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    color: #000
+    color: #000;
+    box-sizing: border-box; /* Added box-sizing for consistency */
 }
 
 button {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer, header, menu, nav, section {
-    display: block
+    display: block;
 }
 
+html {
+        scroll-behavior: smooth;
+}
 body {
-    line-height: 1
-}
-
-ul {
-    list-style: none
-}
-
-html, body {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
-}
-
-body {
+    line-height: 1.5;
     color: #000;
-    margin: 0
+    margin: 0;
+    background-color: #fff;
+
 }
 
 .container {
@@ -50,7 +54,6 @@ body {
     width: 1px;
     height: 1px;
     overflow: hidden;
-
 }
 
 h2 {
