@@ -6,6 +6,11 @@ a, body, div, footer, h1, h2, h3, h4, h5, h6, header, html, i, img, label, li, m
     vertical-align: baseline;
     color: #000;
     box-sizing: border-box; /* Added box-sizing for consistency */
+
+}
+
+li, ul {
+    list-style: none;
 }
 
 button {
